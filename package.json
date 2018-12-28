@@ -1,0 +1,40 @@
+{
+  "name": "lordofpomelo-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "panghongye <cc_@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": ">=0.0.1",
+    "crc": ">=0.0.1",
+    "everyauth": "0.3.0",
+    "express": "~3.0.0",
+    "generic-pool": "^3.1.7",
+    "knex": "^0.16.3",
+    "mysql": "^2.16.0",
+    "node-zookeeper-client": "0.2.0",
+    "pomelo": "https://github.com/sex-pomelo/sex-pomelo.git",
+    "pomelo-aoi": "latest",
+    "pomelo-bt": "latest",
+    "pomelo-collection": "latest",
+    "pomelo-logger": "latest",
+    "pomelo-masterha-plugin": "latest",
+    "pomelo-monitor": "latest",
+    "pomelo-pathfinding": "latest",
+    "pomelo-sync-plugin": "latest",
+    "socket.io": ">=0.9.6",
+    "socket.io-client": ">=0.9.6",
+    "underscore": "1.5.2"
+  },
+  "devDependencies": {
+    "component": "^1.1.0",
+    "mocha": ">=0.0.1",
+    "should": ">=0.0.1"
+  },
+  "scripts": {
+    "s": "cd ./game-server && nodemon app",
+    "g": "cd ./game-server && pomelo start -e development",
+    "w": "cd ./web-server && nodemon app",
+    "i": "cd ./web-server && sh bin/component.sh"
+  }
+}
