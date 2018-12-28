@@ -29,11 +29,12 @@
   "devDependencies": {
     "component": "^1.1.0",
     "mocha": ">=0.0.1",
-    "should": ">=0.0.1"
+    "should": ">=0.0.1",
+    "pm2": "^3.2.4"
   },
   "scripts": {
     "g": "cd ./game-server && pomelo start -e development",
-    "pm2g": "cd ./web-server && pm2 start app --name game",
-    "pm2w": "cd ./web-server && pm2 start app --name web"
+    "pm2g": "cd ./web-server && pm2 start app.js --name game",
+    "pm2w": "cd ./web-server && pm2 start app.js --name web"
   }
 }
