@@ -8,7 +8,7 @@
   },
 
   "production": {
-    "host": "127.0.0.1",
+    "host": "149.28.42.8",
     "port": "3306",
     "database": "pomelo",
     "user": "root",
