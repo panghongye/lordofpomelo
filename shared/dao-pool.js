@@ -1,5 +1,5 @@
 var _poolModule = require("generic-pool")
-var mysqlConfig = require("../../../../shared/config/mysql.json")
+var mysqlConfig = require("./config/mysql.json")
 
 var mysql = require("mysql")
 

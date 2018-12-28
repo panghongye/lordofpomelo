@@ -3,7 +3,7 @@ var Token = require("../shared/token")
 var secret = require("../shared/config/session").secret
 var userDao = require("./lib/dao/userDao")
 var app = express.createServer()
-var mysql = require("./lib/dao/mysql/mysql")
+var mysql = require("../shared/mysql")
 var everyauth = require("./lib/oauth")
 
 var publicPath = __dirname + "/public"

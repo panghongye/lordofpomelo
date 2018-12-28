@@ -1,4 +1,4 @@
-var mysql = require("./mysql/mysql")
+var mysql = require("../../../shared/mysql")
 var userDao = module.exports
 
 /**
