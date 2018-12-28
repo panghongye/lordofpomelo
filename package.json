@@ -30,9 +30,7 @@
     "should": ">=0.0.1"
   },
   "scripts": {
-    "g": "cd ./game-server && pomelo start -e development",
-    "g_": "cd ./game-server && pomelo start -e development &",
-    "w": "cd ./web-server && nodemon app.js",
-    "pm2w": "cd ./web-server && pm2 start app.js --name web"
+    "g": "cd ./game-server && pomelo start",
+    "w": "cd ./web-server && nodemon app.js"
   }
 }
