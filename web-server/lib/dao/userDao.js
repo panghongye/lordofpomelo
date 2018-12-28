@@ -2,7 +2,7 @@ var mysql = require("./mysql/mysql")
 var userDao = module.exports
 
 /**
- * Get userInfo by username
+ * Get userInfo by username 
  * @param {String} username
  * @param {function} cb
  */
