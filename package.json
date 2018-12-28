@@ -33,6 +33,7 @@
   },
   "scripts": {
     "g": "cd ./game-server && pomelo start -e development",
-    "w": "cd ./web-server && nodemon app"
+    "pm2g": "cd ./web-server && pm2 start app --name game",
+    "pm2w": "cd ./web-server && pm2 start app --name web"
   }
 }
