@@ -9,12 +9,12 @@
 4. 修正 web-server 下 component 打包输出文件中的错误
 
 ## 运行指南
-1. 运行根目录的 `npm-install.sh`，等待依赖安装完毕
+1. `npm i`，等待依赖安装完毕
 2. 使用 `game-server/config/scheme/Pomelo.sql` 创建项目数据库
 3. 修改 `shared/config/mysql.json` 数据库连接配置
 4. 分别开启游戏服务器与 Web 服务器
-    1. `pomelo start -e development`
-    2. `node app`
+    1. `npm run g`
+    2. `npm run w`
 5. 浏览器打开 `http://127.0.0.1:3001/`，开始体验吧
 
 ## 附录

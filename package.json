@@ -32,9 +32,7 @@
     "should": ">=0.0.1"
   },
   "scripts": {
-    "s": "cd ./game-server && nodemon app",
     "g": "cd ./game-server && pomelo start -e development",
-    "w": "cd ./web-server && nodemon app",
-    "i": "cd ./web-server && sh bin/component.sh"
+    "w": "cd ./web-server && nodemon app"
   }
 }
