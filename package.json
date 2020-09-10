@@ -8,7 +8,7 @@
     "async": ">=0.0.1",
     "crc": ">=0.0.1",
     "everyauth": "0.3.0",
-    "express": "~3.0.0",
+    "express": "~3.11.0",
     "generic-pool": "^3.1.7",
     "mysql": "^2.16.0",
     "node-zookeeper-client": "0.2.0",
